@@ -10,18 +10,19 @@ namespace Pets
         public string Name { get; set; }
         public int Legs { get; set; }
         public string Breed { get; set; }
-        public Pet(int age, string name, int legs, string breed )
+        public string Sound { get; set; }
+        public Pet(int age, string name, int legs, string breed, string sound)
         {
             Age = age;
             Name = name;
             Legs = legs;
             Breed = breed;
-
+            Sound = sound;
         }
 
         public Pet()
         {
-
+            
         }
         
         
